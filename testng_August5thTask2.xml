@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Rest Assured Learning ATB13x">
+    <test verbose="2" preserve-order="true" name="ATB13xAPIAutomationPrograms">
+        <classes>
+            <class name="com.abir.ATB13xAPITasks.August5thTask2_TestNG.Restful_Booker_Get_Post_TestNG">
+            </class>
+        </classes>
+    </test>
+</suite>
