@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="August8thTasks_TestNG_Priority_Parallel_Classes" parallel="classes" thread-count="2">
+    <test verbose="2" preserve-order="true" name="RestfulBookerE2EParallelClasses">
+        <classes>
+            <class name="com.abir.ATB13xAPITasks.August8thTasks_TestNG_Priority_Parallel.Restful_Booker_Common_HTTP_Methods_E2E_1"></class>
+            <class name="com.abir.ATB13xAPITasks.August8thTasks_TestNG_Priority_Parallel.Restful_Booker_Common_HTTP_Methods_E2E_2"></class>
+        </classes>
+    </test>
+</suite>
